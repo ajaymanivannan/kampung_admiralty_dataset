@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2022-04-06">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="mobility_number" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Social" label="Social" />
+      <node id="Commercial" label="Commercial" />
+      <node id="Entrance" label="Entrance" />
+      <node id="Community" label="Community" />
+      <node id="Vertical" label="Vertical" />
+      <node id="Corridor" label="Corridor" />
+      <node id="Garden" label="Garden" />
+      <node id="Residential" label="Residential" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Social" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Social" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Social" target="Corridor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Social" target="Social">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Social" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Social" target="Community">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Commercial" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Commercial" target="Social">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Commercial" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="40" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Commercial" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Commercial" target="Garden">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Entrance" target="Community">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Entrance" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Entrance" target="Social">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Entrance" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Entrance" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Entrance" target="Corridor">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Entrance" target="Garden">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Community" target="Social">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Community" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Community" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Community" target="Community">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Community" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Vertical" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Vertical" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Vertical" target="Social">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Vertical" target="Community">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Vertical" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Vertical" target="Corridor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Vertical" target="Garden">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Corridor" target="Community">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Corridor" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Garden" target="Vertical">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Garden" target="Garden">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="Garden" target="Entrance">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="Garden" target="Commercial">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

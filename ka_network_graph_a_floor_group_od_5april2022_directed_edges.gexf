@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2022-04-06">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="mobility_number" type="long" />
+    </attributes>
+    <nodes>
+      <node id="L1" label="L1" />
+      <node id="L2" label="L2" />
+      <node id="L6" label="L6" />
+      <node id="Residential" label="Residential" />
+      <node id="Carparks" label="Carparks" />
+      <node id="Rooftop garden" label="Rooftop garden" />
+    </nodes>
+    <edges>
+      <edge id="0" source="L1" target="L1">
+        <attvalues>
+          <attvalue for="0" value="63" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="L1" target="L2">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="L1" target="L6">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="L1" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="L1" target="Carparks">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="L2" target="L1">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="L2" target="L2">
+        <attvalues>
+          <attvalue for="0" value="39" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="L2" target="Carparks">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="L2" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="L2" target="L6">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="L6" target="L2">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="L6" target="Carparks">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="L6" target="L1">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="L6" target="L6">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="L6" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="L6" target="Rooftop garden">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Residential" target="L1">
+        <attvalues>
+          <attvalue for="0" value="44" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Residential" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Residential" target="L6">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Residential" target="Rooftop garden">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Residential" target="L2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Residential" target="Carparks">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Carparks" target="Carparks">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Carparks" target="L1">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Carparks" target="L2">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Carparks" target="Rooftop garden">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Carparks" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Rooftop garden" target="L6">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Rooftop garden" target="Residential">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
